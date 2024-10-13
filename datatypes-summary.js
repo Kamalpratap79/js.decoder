@@ -30,3 +30,30 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+//++++++++++++ memory ++++++++++++++++++++++
+//Stack (Primitive) , Heap (Non -Primitive)
+let myYouTubename = "kamalthakur.com"
+
+let anothername = myYouTubename 
+anothername = "chaigaram"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne = {
+    email: "kamal@.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "kamal@.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+/*In stack we store a primitive type value(numbers ,bollean,etc) and when we take something then we get copy of that things.
+but in Heap we store a non primitive value and get refrence ,means we can do a change in original value */
+
+
+
+
